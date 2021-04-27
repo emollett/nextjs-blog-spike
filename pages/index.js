@@ -57,6 +57,21 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Talks</h2>
+        <ul className={utilStyles.list}>
+          <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`}>
+            <Link href={"https://www.youtube.com/watch?v=UjdyimoZ4Ck&t"}>
+              <a>On not being a shit umbrella - Agile Oxfordshire</a>
+            </Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              September 2020
+            </small>
+          </li>
+        </ul>
+      </section>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, description }) => (
