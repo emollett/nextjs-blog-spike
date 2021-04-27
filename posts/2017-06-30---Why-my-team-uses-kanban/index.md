@@ -14,7 +14,7 @@ description: "Using kanban has improved our visibility of what work is being don
 
 Back in October, my team was using scrum to deliver our service. Our service is relatively simple technologically, but requires a lot of analysis of policy and law, good content design, and thorough user research. Using scrum we found this work was either lumped outside of the sprints as product backlog refinement, or if it was included in the sprint we found user stories were being split according to the work to be done on it due to the work required (eg analyse and design feature X, do user research on feature X, develop feature X) so that they could be spread over sprints.
 
-![Stop starting, start finishing](./1.jpg)
+![Stop starting, start finishing](/images/1.jpg)
 
 Using kanban has improved our visibility of what work is being done by the team, and prevented each stage of work on a feature from becoming uncoupled from each other. We have columns for the activities that need to happen for each story, and the majority of stories should move through every stage towards release. Visualising this flow has helped us to identify where bottlenecks in our delivery process are, and focus on improving the flow through these points. It has also improved our focus on delivering features rather than starting more and more analysis work, as we center our attention in each stand up on what has to be done to the cards to get them in a state to be released starting from the right hand side of the board.
 

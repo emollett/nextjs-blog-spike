@@ -22,7 +22,7 @@ We promote sitting cards where the activity best fits based on those description
 
 In each column we have sub columns of in progress and done, so that we can indicate when a card can be picked up for the next stage.
 
-![Layout of the kanban board](/board.png "Layout of the kanban board")
+![Layout of the kanban board](/images/board.png "Layout of the kanban board")
 *The current layout of my kanban board*
 
 ## The priority backlog
@@ -35,7 +35,7 @@ When picking up a new piece of work, each member of the team first checks if the
 
 Each card is for a story, and we expect them to move through each column on the board. The card details the story title, and is just enough that everyone can get an understanding of what is involved if they read the board or attend stand-up. We do not need any of the detail about the card, as this is all held in jira. We include the number on the top right hand corner of the card so that we can easily find it in jira to get further detail. The information about who is working on the card, and if any blockers or defects on the card get stuck to it and will be covered later.
 
-![Layout of a card](/card.png "Layout of a card")
+![Layout of a card](/images/card.png "Layout of a card")
 *The layout of a card on my board*
 
 ## Work in progress

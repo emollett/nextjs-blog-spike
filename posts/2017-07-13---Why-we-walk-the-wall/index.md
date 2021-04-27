@@ -30,4 +30,4 @@ By discussing the cards starting from the right hand side of the board in turn;
 * You can get updates from multiple members of the team who might have been working on it in context, rather than waiting for each of them to provide their updated interspersed with updates about unrelated work. This has improved communication between team members, and prompted more discussion around what is required and what help is needed.
 * People don’t lose focus as they may when going around the entire team (because they are thinking about what to say when it comes to their turn), and so catch the update on work that may be coming their way in a day or two.
 
-![Doodle of a standup](/standup.jpg "Doodle of a standup")
+![Doodle of a standup](/images/standup.jpg "Doodle of a standup")

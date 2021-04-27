@@ -30,7 +30,7 @@ The teams are also able to prioritise their work better. As each covers several 
 
 The services a team looks after tend to support the same stakeholder group. This means that when it comes to prioritisation, there is a direct impact on those users of prioritising one piece of work over another. The same people will deliver each item, so prioritising one item over another has a real impact on delivery – this means the prioritisation conversations are more real, and the less valuable work will actually get deprioritised. When you have teams with a single project, you might prioritise within the team, but there less visibility of prioritisation of what work different teams are doing against each other. This in effect ring fences funding for low priority work, rather than looking at it against another piece of work and deciding which is more important.
 
-![Prioritising work in one](/prioritisation.png "Prioritising work in one")
+![Prioritising work in one](/images/prioritisation.png "Prioritising work in one")
 *By prioritising the work as one service team looking after multiple services rather than at the project level, it becomes obvious that the work that Team A would have been doing isn't actually that high value. We get to focus instead on delivering higher value work first*
 
 ##Service stability

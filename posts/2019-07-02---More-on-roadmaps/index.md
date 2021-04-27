@@ -18,12 +18,12 @@ I've been thinking more about roadmaps recently and how they differ from deliver
 
 I might be being too literal, but to me a road map show clearly where you want to get to, shows the paths (multiple!) to get there, and the places you pass through on the way. If something blocks you, you can use it to reorientate yourself and continue on route.
 
-![Map of Manchester](./MANmap.jpg "Map of Manchester")
+![Map of Manchester](/images/MANmap.jpg "Map of Manchester")
 *A road map of Manchester*
 
 Most roadmaps I see look more like roads - they have a single path, give no room for different routes. They don't support a conversation of how to get there, or why you are taking that route. You can't always see how the path supports the goal.
 
-![roadmap](./roadmap.jpg "A very lovely road, but although it is the way I need to go I don't see how it leads to the end of the harbour")
+![roadmap](/images/roadmap.jpg "A very lovely road, but although it is the way I need to go I don't see how it leads to the end of the harbour")
 *A very lovely road, but although it is the way I need to go I don't see how it leads to the end of the harbour*
 
 Most of these are delivery plans.
@@ -50,14 +50,14 @@ It became clear quickly that there were some clear goals the team had, and we co
 
 Where we've ended up is a big network of things we can do to achieve our goals.
 
-![network](./network.jpg "A rough sketch of how activities link to goals")
+![network](/images/network.jpg "A rough sketch of how activities link to goals")
 *A rough sketch of how activities link to our goals*
 
 We labelled the links with what impact doing one node has on the next.
 
 That helps us when explaining why we need to do some of the foundational work. That now clearly links to a goal, even if you have to traverse several subsequent nodes to get there.
 
-![network detail](./networkdetail.jpg "Detail from the roadmap showing how each activity supports the next and the end goals")
+![network detail](/images/networkdetail.jpg "Detail from the roadmap showing how each activity supports the next and the end goals")
 *Detail from the roadmap showing how each activity supports the next and the end goals*
 
 This gives you no information at all about delivery. But it's already kicked off discussions about what we can start, and who can help us.

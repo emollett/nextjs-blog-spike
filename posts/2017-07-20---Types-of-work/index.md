@@ -23,7 +23,7 @@ These are our most obvious pieces of work, generally new features or functionali
 
 These are the technical features required to enable the service to work such as infrastructure and security. Initially this was fairly badly visualised, with the developers having a good idea of what was needed and what they were working on, but this was not reflected on the board. This meant that we had little idea of what extra work was going on, leading to other pieces of work taking longer than expected. Part of the reason these pieces of work weren’t making it to the wall is that the product owner prioritises the cards based on user need. The tech work required often gets missed as it and its importance is not always understood by the product owner and delivery manager. To improve this we have ring fenced at least 20% of the priority backlog (the next 10 cards we will work on) to work from the tech backlog. The tech backlog is prioritised by the developers and technical architect, who select the work to go on the priority backlog as they understand best what the priority of this work is.
 
-![Tech backlog](/techbacklog.jpg "Tech backlog")
+![Tech backlog](/images/techbacklog.jpg "Tech backlog")
 *Diagram showing how we prioritise our tech backlog*
 
 ## Change and maintenance

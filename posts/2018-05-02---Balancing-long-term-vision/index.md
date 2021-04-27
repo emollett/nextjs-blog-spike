@@ -19,7 +19,7 @@ I’ve been thinking recently about how our team balances the effort we put in t
 
 We want to be able to look forwards and think about where we want to go so we can communicate this to stakeholders and other services we interact with, to build engagement and to make sure we don’t back ourselves into a corner by focusing only on our immediate delivery. However, we also want to make sure we don’t start fixing problems before we verify they exist, and that we balance the effort we put into this with our delivery work.
 
-![Balancing delivery and vision](/balance.jpg "Balancing delivery and vision")
+![Balancing delivery and vision](/images/balance.jpg "Balancing delivery and vision")
 *Balancing delivery and vision*
 
 ##Things I wanted to take into account before adding longer term design work into the team backlog

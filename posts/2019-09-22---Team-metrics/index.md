@@ -22,7 +22,7 @@ I’m going to assume you already understand that collecting data on your team t
 
 Despite this, as a delivery manager it can still be tempting to collect metrics on your team – to demonstrate improvement or to satisfy your curiosity about an experiment you are running. Rightfully, we are recognising that evidence-based decision making is a good thing. You’ll probably justify this to yourself with the argument that these metrics will only be used within the team, that they won’t be used as management things to beat people with, and that you aren’t really comparing people with them.
 
-![Illustration of a bar graph measuring a team](./team_metrics.jpg)
+![Illustration of a bar graph measuring a team](/images/team_metrics.jpg)
 *Do people really want to be measured like this?*
 
 I’ve fallen into this trap before, and am lucky enough to have a team that will happily call me out on it.

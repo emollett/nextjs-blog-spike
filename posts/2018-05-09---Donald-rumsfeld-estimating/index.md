@@ -44,7 +44,7 @@ Knowing to the day the size of each card isn’t what I’m trying to get at any
 
 Based on the [Johari window](https://en.wikipedia.org/wiki/Johari_window), which [Donald Rumsfeld used to describe](https://en.wikipedia.org/wiki/There_are_known_knowns) the difference between things you don’t know, and things that you don’t know you don’t know.
 
-![Donald Rumsfeld with assorted sized dogs and T shirts](/donaldrumsfeld.png "Donald Rumsfeld with assorted sized dogs and T shirts")
+![Donald Rumsfeld with assorted sized dogs and T shirts](/images/donaldrumsfeld.png "Donald Rumsfeld with assorted sized dogs and T shirts")
 *Donald Rumsfeld with assorted sized dogs and T shirts*
 
 In the context of estimating work required to deliver value -

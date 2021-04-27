@@ -17,7 +17,7 @@ This post is about how delivery managers (and product managers) can encourage an
 
 Put simply, pairing is about two (or more!) developers working together on the same piece of code at the same time. It can take several forms, but often one will write the code whilst the other reviews what they are writing as they write it. They should regularly switch who is taking which role.
 
-![Two developers pairing](/pairing.png "Two developers pairing")
+![Two developers pairing](/images/pairing.png "Two developers pairing")
 *Two developers pairing*
 
 There are several benefits to pairing in software development. You increase code quality due to the extra pair of eyes, and because you put in more thought if you are having to explain what you are doing as you go along. Pairing can also help on teams where you are getting people up to speed with a code base. It can also help reduce the “bus factor” problem, where either entire codebases or specific bits of functionality are only understood by one developer, leading to major issues when they leave your team.

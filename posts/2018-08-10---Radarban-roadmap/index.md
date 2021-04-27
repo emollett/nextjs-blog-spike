@@ -25,7 +25,7 @@ Roadmaps are also useful to support team communications. Having a shared idea of
 
 When putting together my current roadmap, I had in mind the radarban board that [Paul D'Ambra](https://medium.com/@pauldambra) showed at the Deliver Sessions last year. I liked that it allowed multiple items to share a space in time, and it constrained how many items would be the current top priority. It allowed for items to be prioritised against each other, and for things that wouldn’t happen for a while to have broadly the same priority so you didn’t have to worry too much about how they were positioned relative to each other.
 
-![An early roadmap for my current project](/roadmap.png "An early roadmap for my current project")
+![An early roadmap for my current project](/images/roadmap.png "An early roadmap for my current project")
 *Early roadmap for my current project using now/next/later to organise priorities*
 
 This was a very early version of my roadmap, which was trying to get all the bits and pieces that people were discussing visible, and sorted according to priority for delivery. It supported several things:
@@ -48,7 +48,7 @@ There are some deficiencies to it that I improved over time or would change in t
 
 Later on in the project, we are starting to get nearer to the point where we decide what will be available for various users as we roll it out, and what we won’t do. I have been asked for more clarity on timelines, so despite my earlier reticence have added some indication of time. Now is the right time to do that, but I stand by not having it early on in delivery when timelines were unknown. This is the latest version:
 
-![A later version of the roadmap with timelines indicated](/roadmap2.jpg "A later version of the roadmap with timelines indicated")
+![A later version of the roadmap with timelines indicated](/images/roadmap2.jpg "A later version of the roadmap with timelines indicated")
 Later version of the roadmap with more indication of timelines
 
 As you can see, this supports stakeholders in understanding what features their user groups will have depending on when they come on board, and gives an idea of where we’ve identified further user research is needed into needs.

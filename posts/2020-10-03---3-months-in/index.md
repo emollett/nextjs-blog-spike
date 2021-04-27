@@ -56,7 +56,7 @@ I’ve realised that I had a very different early lockdown to the rest of my tea
 
 Linked to the context switching – I do much less communicating than I did before. I get fewer messages on teams, and I get barely any emails. I can see why most the devs I’ve worked with don’t really check their email inboxes – I’ve often got nothing in there. I certainly never saw inbox 0 as a delivery manager!
 
-![You've finished! message from outlook](./inbox0.png)
+![You've finished! message from outlook](/images/inbox0.png)
 *I've finished? I've no emails to reply to? What??*
 
 ## Random other bits

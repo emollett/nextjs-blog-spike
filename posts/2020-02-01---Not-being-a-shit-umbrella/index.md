@@ -20,7 +20,7 @@ The theory goes that your most important contribution as a manager is to protect
 
 I can see why anyone would rather a manager who was a shit umbrella than a shit funnel. But when it starts becoming a badge of honour, things are starting to go wrong.
 
-![A person holding a broken umbrella crushed by shit](./shit_umbrella.png)
+![A person holding a broken umbrella crushed by shit](/images/shit_umbrella.png)
 *Oof*
 
 Often the shit you are protecting your team from comes from the rest of the organisation you are working in, from users, or from your higher ups. It tends to be because of different ways of working. Once you start inserting yourself between these people and your team, you are removing their exposure and isolating them. 
