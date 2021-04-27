@@ -9,7 +9,7 @@
   .headingXl {
     font-size: 2rem;
     line-height: 1.3;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
   }
@@ -48,5 +48,9 @@
   }
   
   .lightText {
-    color: #666;
+    color: #D00070;
+  }
+
+  .social {
+    padding-right: 5px;
   }
