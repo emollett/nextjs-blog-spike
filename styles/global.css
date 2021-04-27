@@ -25,3 +25,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+hr {
+  border-top: 2px dashed #D00070;
+}
