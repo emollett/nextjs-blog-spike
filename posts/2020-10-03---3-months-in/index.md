@@ -38,13 +38,13 @@ Which is amazing, and one of the reasons I switched. Even when I was busy as a d
 The feeling reminds me a lot of my first few months in the lab starting my PhD. Back then it was machines I had no idea how to use, and people saying things like “just clone in the mutation then once you’ve purified the protein I can show you how to use the NMR”. The assumption is that the last part is the bit you need help with, but you don’t even know how to get started on the first part. I use this to remind myself that I did eventually know what I was doing. Also, that once I got to that point there was still a vast amount to learn.
 
 ## How I went about it
-Good – Picking up the odd dev card when I had spare time meant I could learn over time during my existing job, and allowed me to learn that I enjoyed the work without making a risky jump. 
+**Good** – Picking up the odd dev card when I had spare time meant I could learn over time during my existing job, and allowed me to learn that I enjoyed the work without making a risky jump. 
 
-Bad – I wish I had had the confidence to do it sooner, although I am grateful for what I’ve learned as a delivery manager. 
+**Bad** – I wish I had had the confidence to do it sooner, although I am grateful for what I’ve learned as a delivery manager. 
 
-Good – I’ve stayed on the same team that I used to be delivery manager for, which means I’m not having to learn the business context as well as the tech. 
+**Good** – I’ve stayed on the same team that I used to be delivery manager for, which means I’m not having to learn the business context as well as the tech. 
 
-Bad – This means I have had to be careful not to step on the new delivery managers toes.
+**Bad** – This means I have had to be careful not to step on the new delivery managers toes.
 
 ## Working with a delivery manager
 This has been a little weird, it helps that I am working with a great delivery manager. In the first month or so I actually had major impostor syndrome about my old job. Our new delivery manager is much better than I was at the people and team side of the job, and that made me seriously question how good I had been at what I was doing. I’ve come to terms now with the fact our strengths are different, and that is ok. Also, its not my job any more so it doesn’t really matter, and it gives me the fabulous chance to learn from her.

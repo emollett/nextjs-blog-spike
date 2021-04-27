@@ -13,7 +13,7 @@ tags:
 description: "Having an extended pause to a project sucks, but we have found some silver linings"
 ---
 
-At NICE our teams own several live services which they maintain alongside the greenfield build work that they do. I’ve written before about the [benefits this brings](/posts/service-teams-not-project-teams/) and how the [funding works](/posts/funding-service-teams/) which both touched on the prioritisation of services against each other. 
+At NICE our teams own several live services which they maintain alongside the greenfield build work that they do. I’ve written before about the [benefits this brings](/posts/2019-02-07---service-teams-not-project-teams/) and how the [funding works](/posts/2019-02-20---funding-service-teams/) which both touched on the prioritisation of services against each other. 
 
 At the point that I wrote those posts, we were just tying up work on the [private beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) of [a service](https://digitalhealth.blog.gov.uk/2019/04/15/nice-comment-collection-private-beta-assessment/) to do some work on a rebuild of one of the live services we support with an external supplier. This is a cross cutting service used by other digital teams, which was difficult to integrate with and difficult to improve. We had also been focusing on the greenfield build for a while, so also had several change requests and issues to address on other live services that had been deprioritised. 
 

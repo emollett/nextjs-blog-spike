@@ -13,7 +13,7 @@ description: "Since going remote, we've had to make some changes to how we run o
 
 It's now over a month since we've been working remotely. Before this all happened I had been planning on writing a post about how we were steadily removing columns from our board, some of the techniques we had used to replace some columns, and what it had improved. Since going remote, we've reflected regularly about the board and our standups, and it has changed form again.
 
-The starting point is the board I described in ["Anatomy of our kanban board"](/posts/the-anatomy-of-our-kanban-board/). This was my starting point because this was the workflow that the team was using at the time. It is really important that your current workflow is how your board starts out - if you try to start with an ideal board with an ideal workflow, you will always be fighting it. Any improvements to the board have to reflect actual improvements that have been made to how the team is working.
+The starting point is the board I described in ["Anatomy of our kanban board"](/posts/2017-07-05---The-anatomy-of-our-kanban-board/). This was my starting point because this was the workflow that the team was using at the time. It is really important that your current workflow is how your board starts out - if you try to start with an ideal board with an ideal workflow, you will always be fighting it. Any improvements to the board have to reflect actual improvements that have been made to how the team is working.
 
 ![Kanban board with 6 columns](/images/board.png)
 *analysis -> design -> user testing -> dev -> testing*

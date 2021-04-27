@@ -20,12 +20,12 @@ In my current team we support a range of services that support our organisation 
 
 This might sound completely unmanageable, but actually provides several benefits.
 
-##Team stability
+## Team stability
 The stability of the team is improved because we always have work – when you are between projects, or when you don't have approval to start, you still exist as a team and have things to work on. This is because the team covers a group of services at various stages from build to live support. When we are between new builds, we are working on improving our live services, or responding to live service requests. I no longer have the issue of trying to work out what a team will be doing when there is no approval to proceed with a project.
 
 One thing I remember from project led funding is working with large spreadsheets to try and work out if the team had enough funding to keep us together. I was constantly working out how much project funding we had, and when it would kick in, and trying to ensure it lined up to keep the team together. With team led funding, the team has funding all the way though, and I can assign costs to projects as we go along. I may need to keep within a certain budget for projects, but the team as a whole has funding and can keep working. I also don’t have the headache of different parts of the business funding bits and pieces of projects and having to go back and forth between different funding governance to scrape together all the money.
 
-##Prioritisation of work
+## Prioritisation of work
 The teams are also able to prioritise their work better. As each covers several services, we can prioritise them against each other, and provide the right amount of support. Low priority services don’t need permanent assignment of people, and there are fewer issues with varying the amount spent over the year depending on the immediate priorities.
 
 The services a team looks after tend to support the same stakeholder group. This means that when it comes to prioritisation, there is a direct impact on those users of prioritising one piece of work over another. The same people will deliver each item, so prioritising one item over another has a real impact on delivery – this means the prioritisation conversations are more real, and the less valuable work will actually get deprioritised. When you have teams with a single project, you might prioritise within the team, but there less visibility of prioritisation of what work different teams are doing against each other. This in effect ring fences funding for low priority work, rather than looking at it against another piece of work and deciding which is more important.
@@ -33,13 +33,13 @@ The services a team looks after tend to support the same stakeholder group. This
 ![Prioritising work in one](/images/prioritisation.png "Prioritising work in one")
 *By prioritising the work as one service team looking after multiple services rather than at the project level, it becomes obvious that the work that Team A would have been doing isn't actually that high value. We get to focus instead on delivering higher value work first*
 
-##Service stability
+## Service stability
 Our teams all support a mix of live services and new builds. This means they are likely to be the same team supporting new builds once they go live. This gives teams a real stake in the technical decisions they make and encourages consideration of how to support services . This has an impact not just on the technical and architectural decisions made when designing solutions, but also on the quality of the work . We can’t defer bugs or documentation onto someone else, we know that they will come back to bite us when we are running the service in live. Once a service is in live, we also have the team who best understands the service looking after it.
 
-##Bus factor
+## Bus factor
 We work hard to try to ensure the team has a low bus factor – we never want to be in a situation where we have replicated project teams on the individual level. We ensure that people rotate around doing live service and project work, and that all the team members have experience on all the services we support. We benefit from people getting a good range of technical experience, and from not relying on a single source of knowledge that could leave. If people are looking for more experience in a particular area, it is likely that we will have something we can provide them with to support that.
 
-##Long term strategy at the team level
+## Long term strategy at the team level
 We have found that we can have much longer-term strategic discussions as a team about our services and how we are supporting the business . Several of our services interact or have the potential to interact to provide greater value, and by supporting them all we can plan for this, and start to see links we might not have seen before. We can start thinking about how we could improve the support we provide to the organisation in the long term, not just over the timescale of an individual project.
 
 ---

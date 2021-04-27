@@ -16,7 +16,7 @@ We are currently having one of our quarterly spike weeks on our team, and for on
 Much better day today, things worked!!
 
 ***
-#DAY 4
+# DAY 4
 
 I left yesterday knowing the CodeDeploy was deploying my files to my EC2 instance, but that the deployments were still failing to then follow the appspec instructions. I had been following [these instructions](https://crypt.codemancers.com/posts/2016-12-26-autodeploy-from-github-using-aws-codedeploy/) and using their examples of the appspec file and the before and after install hooks.
 

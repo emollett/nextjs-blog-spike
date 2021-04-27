@@ -18,27 +18,27 @@ For a long time, I have avoided estimation. I’ve generally found that story co
 
 In my current work, I have a relatively well defined core set of needs that we want to meet for initial rounds of testing, and I want to have an idea of when the features will be ready so that we can plan in testing participants. This has given me reason to put some estimates to the work we are doing. I also needed to provide a rough date rather than a length of time for a single feature, so needed a consistent method to apply to all the stories that made up the core set of features.
 
-##The usual method of estimating after enough analysis has been done to understand the card in detail doesn’t sit right with me.
+## The usual method of estimating after enough analysis has been done to understand the card in detail doesn’t sit right with me.
 
 The analysis and design are still work that need to be done, which have an impact on how long it takes to deliver. It doesn’t make sense to me to ignore this when providing estimates. The analysis and design take up most of the time for delivery, so just estimating development and test effort isn’t much use to me.
 
 I don’t want to do all the analysis and design up front, so it makes sense to provide estimates for all the work. This means my previous method of using story count wasn’t suitable as the stories were in a very early stage (pre analysis), and so highly variable in how well defined they are. By the time the cards are ready for development they have generally been broken down small enough to use story count, if an estimate was needed for that stage.
 
-If I estimate, I want to estimate early before any analysis and design work has started. Another benefit of this is that it helps the team understand where our really complex areas are, and where we have a lot of knowledge gaps. This can prompt us to do more research or testing in those areas if needed, or [do some concept designs earlier on to work out some ideas](/posts/balancing-long-term-vision).
+If I estimate, I want to estimate early before any analysis and design work has started. Another benefit of this is that it helps the team understand where our really complex areas are, and where we have a lot of knowledge gaps. This can prompt us to do more research or testing in those areas if needed, or [do some concept designs earlier on to work out some ideas](/posts/2018-05-02---Balancing-long-term-vision).
 
-##I don’t want to spend lots of time estimating.
+## I don’t want to spend lots of time estimating.
 
 I don’t get enough value out of estimating to spend lots of time doing it and discussing sizes. Normally the value in estimating is the conversation and building team knowledge of the requirement anyway, but as I want to estimate prior to analysis and we have robust 3 amigos sessions later on this loses value.
 
 I also don’t want the team getting side tracked during estimation, and coming up with solutions before we even get started.
 
-##I don’t want to think about days of work — only complexity.
+## I don’t want to think about days of work — only complexity.
 
 Obviously this is what we are meant to do with estimates, but I don’t think I’ve ever sat in a session which hasn’t occasionally devolved into adding up days of work to come up with estimates. Given we will be estimating the full work from analysis to done, this isn’t sensible — the uncertainty over time in days is possibly even worse for analysis and design work.
 
 Knowing to the day the size of each card isn’t what I’m trying to get at anyway — I still believe over time the story points even out, I just want them to be slightly scaled by complexity given how much variation there is in how much we know about cards at this stage.
 
-##So how am I going to estimate in a super speedy way that only looks at complexity very early on?
+## So how am I going to estimate in a super speedy way that only looks at complexity very early on?
 
 **Donald Rumsfeld estimating** — is the piece of work a known known, a known unknown, or an unknown unknown?
 
@@ -56,7 +56,7 @@ In the context of estimating work required to deliver value -
 * **Unknown unknown** — we know something is needed, but not much more than that. We might not even be entirely certain it is needed. The developers have a lot of questions about what needs to be done. **As soon as people start discussing what a card means or start debating what is needed we give it this estimate.**
 
 
-##Points points points.
+## Points points points.
 
 To be useful for estimating when we can book in our test participants, I need some points. At this stage, you could use Fibonacci or whatever your favourite numbers are. I like to use a 2 power series, with 4 for known known, 8 for known unknown, and 16 for unknown unknowns just because it goes up faster than the Fibonacci sequence.
 

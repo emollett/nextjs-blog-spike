@@ -16,7 +16,7 @@ We are currently having one of our quarterly spike weeks on our team, and for on
 ***
 # Day 1
 
-Our theme this time is infrastructure, and I've decided to automate my deployment pipeline. To do this I want to set up so that I can spin up new EC2 instances each time I deploy, and use AWS CodeDeploy to deploy to them. Currently I have a pipeline set up that sets off a build when I push to master in github, but I still need to ssh into my EC2 instance to pull down the build artifact from an S3 bucket. I wrote about how I initially set it up [here](http://eleanormollett.com/posts/What-I-learned-deploying), and it has moved on a little since.
+Our theme this time is infrastructure, and I've decided to automate my deployment pipeline. To do this I want to set up so that I can spin up new EC2 instances each time I deploy, and use AWS CodeDeploy to deploy to them. Currently I have a pipeline set up that sets off a build when I push to master in github, but I still need to ssh into my EC2 instance to pull down the build artifact from an S3 bucket. I wrote about how I initially set it up [here](/posts/2019-01-18---What-I-learned-deploying), and it has moved on a little since.
 
 My plan was to set up an EC2 template which would have all my current parameters like the AMI I am using, the security groups I have set up etc defined to make it easy to reproduce each time I launch a new instance. This part was very straightforward, it was simply a case of working through the options.
 

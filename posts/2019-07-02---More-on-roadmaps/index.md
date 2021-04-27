@@ -38,7 +38,7 @@ Putting them together helps you learn.
 
 They don't always effectively communicate your end goal, and they don't usually help you make decisions or change direction part way through.
 
-I've written [before](https://eleanormollett.com/posts/radarban-roadmap/) about using radar style roadmaps - I think this sits between a delivery plan and a delivery roadmap. It can change, it supports decision making, but it fails to show the end goal, or link any of the deliverables to our goals.
+I've written [before](/posts/2018-08-10---Radarban-roadmap/) about using radar style roadmaps - I think this sits between a delivery plan and a delivery roadmap. It can change, it supports decision making, but it fails to show the end goal, or link any of the deliverables to our goals.
 
 I've recently been working with our infrastructure team on a roadmap to communicate all the things they want to do to make life easier for devs and improve our infrastructure.
 

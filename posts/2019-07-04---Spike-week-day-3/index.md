@@ -16,7 +16,7 @@ We are currently having one of our quarterly spike weeks on our team, and for on
 After yesterday's disaster I wasn't sure about writing anything today as I haven't really got much further in terms of outputs. I have learned things though, so in the interest of sharing that here is what I was up to today and learned
 
 ***
-#DAY 3
+# DAY 3
 
 Having managed to get the codedeploy agent installed on Tuesday, I spent yesterday failing to deploy anything. It took the whole day to realise I was missing the appspec file from my application, so I did actually learn something yesterday was but was too frustrated to recognise it.
 
