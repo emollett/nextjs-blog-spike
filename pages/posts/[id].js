@@ -13,11 +13,13 @@ const components = {
     return <Image src={image.src} alt={image.alt} />
   },
   code({children, language}) {
-    return <SyntaxHighlighter 
-      children={String(children).replace(/\n$/, '')} 
-      showLineNumbers={true} 
-      language={language} 
-      style={vs} />
+    return (
+      <SyntaxHighlighter 
+        children={String(children).replace(/\n$/, '')} 
+        showLineNumbers={true} 
+        language={language} 
+        style={vs} />
+    );
   }
 }
 

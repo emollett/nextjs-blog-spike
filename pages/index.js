@@ -18,41 +18,42 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-      <Link href="https://twitter.com/EleanorMollett">
-        <a className={utilStyles.social}>
-          <Image
-            priority
-            src="/images/twitter.png"
-            height={70}
-            width={70}
-            alt="Twitter"
-          />
-        </a>
+      <Link href="https://twitter.com/EleanorMollett" className={utilStyles.social}>
+
+        <Image
+          priority
+          src="/images/twitter.png"
+          height={70}
+          width={70}
+          alt="Twitter"
+        />
+
       </Link>
 
-      <Link href="https://github.com/emollett">
-        <a className={utilStyles.social}>
-          <Image
-            priority
-            src="/images/github.png"
-            height={70}
-            width={70}
-            alt="GitHub"
-          />
-        </a>
+      <Link href="https://github.com/emollett" className={utilStyles.social}>
+
+        <Image
+          priority
+          src="/images/github.png"
+          height={70}
+          width={70}
+          alt="GitHub"
+        />
+
       </Link>
 
-      <Link href="https://www.linkedin.com/in/eleanormollett/">
-        <a className={utilStyles.social}>
-          <Image
-            priority
-            src="/images/linkedin.png"
-            height={70}
-            width={70}
-            alt="Linkedin"
-          />
-        </a>
-        
+      <Link
+        href="https://www.linkedin.com/in/eleanormollett/"
+        className={utilStyles.social}>
+
+        <Image
+          priority
+          src="/images/linkedin.png"
+          height={70}
+          width={70}
+          alt="Linkedin"
+        />
+
       </Link>
       </section>
 <hr />
@@ -61,7 +62,7 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`}>
             <Link href={"https://www.youtube.com/watch?v=UjdyimoZ4Ck&t"}>
-              <a>On not being a shit umbrella - Agile Oxfordshire</a>
+              On not being a shit umbrella - Agile Oxfordshire
             </Link>
             <br />
             <small className={utilStyles.lightText}>
@@ -77,7 +78,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, description }) => (
             <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
@@ -91,7 +92,7 @@ export default function Home({ allPostsData }) {
       </section>
 
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
