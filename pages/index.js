@@ -2,11 +2,12 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import { getSortedGuidesData } from '../lib/guides'
 import Link from 'next/link'
 import Date from '../components/date'
 import Image from 'next/image'
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, allGuidesData }) {
   return (
     <Layout home>
       <Head>
@@ -90,6 +91,22 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+<hr />
+      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
+        <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer stuff</h2>
+        <ul className={utilStyles.list}>
+          {allGuidesData.map(({ id, title, description }) => (
+            <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
+              <Link href={`/guides/${id}`}>
+                {title}
+              </Link>
+              <br />
+              <br />
+              {description}
+            </li>
+          ))}
+        </ul>
+      </section>
 
     </Layout>
   );
@@ -97,9 +114,11 @@ export default function Home({ allPostsData }) {
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+  const allGuidesData = getSortedGuidesData()
   return {
     props: {
-      allPostsData
+      allPostsData,
+      allGuidesData
     }
   }
 }
