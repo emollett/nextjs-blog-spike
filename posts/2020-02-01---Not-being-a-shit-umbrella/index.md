@@ -8,7 +8,6 @@ category: "Delivery"
 tags:
   - "Delivery"
   - "Product Management"
-  - "Product Management"
   - "Development"
 
 description: "Being your teams shit umbrella isn't always in their interest"
