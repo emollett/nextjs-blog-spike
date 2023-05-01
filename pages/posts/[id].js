@@ -25,7 +25,7 @@ const components = {
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <Layout posts>
       <Head>
         <title>{postData.title}</title>
       </Head>

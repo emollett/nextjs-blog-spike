@@ -7,7 +7,7 @@ import Link from 'next/link'
 const name = 'Eleanor Mollett'
 export const siteTitle = name
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, guides, posts }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -55,7 +55,21 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
-      {!home && (
+      {guides && (
+        <div className={styles.backToHome}>
+          <Link href="/guides">
+            ← Back to guides
+          </Link>
+        </div>
+      )}
+      {posts && (
+        <div className={styles.backToHome}>
+          <Link href="/posts">
+            ← Back to posts
+          </Link>
+        </div>
+      )}
+      {!home && !guides && !posts && (
         <div className={styles.backToHome}>
           <Link href="/">
             ← Back to home

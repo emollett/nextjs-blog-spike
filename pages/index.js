@@ -20,7 +20,6 @@ export default function Home({ allPostsData, allGuidesData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
       <Link href="https://twitter.com/EleanorMollett" className={utilStyles.social}>
-
         <Image
           priority
           src="/images/twitter.png"
@@ -28,11 +27,9 @@ export default function Home({ allPostsData, allGuidesData }) {
           width={70}
           alt="Twitter"
         />
-
       </Link>
 
       <Link href="https://github.com/emollett" className={utilStyles.social}>
-
         <Image
           priority
           src="/images/github.png"
@@ -40,13 +37,11 @@ export default function Home({ allPostsData, allGuidesData }) {
           width={70}
           alt="GitHub"
         />
-
       </Link>
 
       <Link
         href="https://www.linkedin.com/in/eleanormollett/"
         className={utilStyles.social}>
-
         <Image
           priority
           src="/images/linkedin.png"
@@ -54,10 +49,9 @@ export default function Home({ allPostsData, allGuidesData }) {
           width={70}
           alt="Linkedin"
         />
-
       </Link>
-      </section>
-<hr />
+      </section>  
+      <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
         <h2 className={utilStyles.headingLg}>Talks</h2>
         <ul className={utilStyles.list}>
@@ -72,11 +66,11 @@ export default function Home({ allPostsData, allGuidesData }) {
           </li>
         </ul>
       </section>
-<hr />
+      <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, description }) => (
+          {allPostsData.slice(0,3).map(({ id, date, title, description }) => (
             <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
               <Link href={`/posts/${id}`}>
                 {title}
@@ -90,22 +84,12 @@ export default function Home({ allPostsData, allGuidesData }) {
             </li>
           ))}
         </ul>
+        <Link href={`/posts`}>All posts</Link>
       </section>
-<hr />
+      <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
         <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer stuff</h2>
-        <ul className={utilStyles.list}>
-          {allGuidesData.map(({ id, title, description }) => (
-            <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
-              <Link href={`/guides/${id}`}>
-                {title}
-              </Link>
-              <br />
-              <br />
-              {description}
-            </li>
-          ))}
-        </ul>
+        <Link href={`/guides`}>All guides</Link>
       </section>
 
     </Layout>

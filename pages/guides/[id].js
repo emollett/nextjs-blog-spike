@@ -1,7 +1,6 @@
 import Layout from '../../components/layout'
 import { getAllGuideIds, getGuideData } from '../../lib/guides'
 import Head from 'next/head'
-import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import ReactMarkdown from "react-markdown"
 import Image from "next/image"
@@ -25,18 +24,12 @@ const components = {
 
 export default function Guide({ guideData }) {
   return (
-    <Layout>
+    <Layout guides>
       <Head>
         <title>{guideData.title}</title>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{guideData.title}</h1>
-        {/* <div className={utilStyles.lightText}>
-          First published on <Date dateString={guideData.first_published_date} />
-        </div>
-        <div className={utilStyles.lightText}>
-          Last updated on <Date dateString={guideData.last_updated_date} />
-        </div> */}
         <ReactMarkdown
           children={guideData.content}
           components={components}
