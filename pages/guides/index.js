@@ -8,10 +8,10 @@ export default function Home({ allGuidesData }) {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} | What is ...</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-        <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer stuff</h2>
+        <h2 className={utilStyles.headingLg}>What is ...</h2>
         <ul className={utilStyles.list}>
           {allGuidesData.map(({ id, title, draft }) => (
               <>

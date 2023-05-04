@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout, { siteTitle } from '../../components/layout'
 import { getAllGuideIds, getGuideData } from '../../lib/guides'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
@@ -26,10 +26,10 @@ export default function Guide({ guideData }) {
   return (
     <Layout guides>
       <Head>
-        <title>{guideData.title}</title>
+        <title>{siteTitle} | What is ... {guideData.title.toLowerCase()}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{guideData.title}</h1>
+        <h1 className={utilStyles.headingXl}>What is ... {guideData.title.toLowerCase()}</h1>
         <ReactMarkdown
           children={guideData.content}
           components={components}
