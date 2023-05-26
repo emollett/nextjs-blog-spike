@@ -14,43 +14,10 @@ export default function Home({ allPostsData, allGuidesData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections} ${utilStyles.blurb}`}>
         <p>Software developer currently working for DLUHC in Manchester, previously a developer and/or delivery manager on agile teams across several government departments.</p>
       </section>
-
-      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-      <Link href="https://twitter.com/EleanorMollett" className={utilStyles.social}>
-        <Image
-          priority
-          src="/images/twitter.png"
-          height={70}
-          width={70}
-          alt="Twitter"
-        />
-      </Link>
-
-      <Link href="https://github.com/emollett" className={utilStyles.social}>
-        <Image
-          priority
-          src="/images/github.png"
-          height={70}
-          width={70}
-          alt="GitHub"
-        />
-      </Link>
-
-      <Link
-        href="https://www.linkedin.com/in/eleanormollett/"
-        className={utilStyles.social}>
-        <Image
-          priority
-          src="/images/linkedin.png"
-          height={70}
-          width={70}
-          alt="Linkedin"
-        />
-      </Link>
-      </section>  
+ 
       <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
         <h2 className={utilStyles.headingLg}>Talks</h2>
@@ -91,6 +58,43 @@ export default function Home({ allPostsData, allGuidesData }) {
         <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer stuff</h2>
         <Link href={`/guides`}>All guides</Link>
       </section>
+
+      <hr/>
+
+      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
+        <h2 className={utilStyles.headingLg}>Contact me</h2>
+        <Link href="https://twitter.com/EleanorMollett" className={utilStyles.social}>
+          <Image
+            priority
+            src="/images/twitter.png"
+            height={70}
+            width={70}
+            alt="Twitter"
+          />
+        </Link>
+
+        <Link href="https://github.com/emollett" className={utilStyles.social}>
+          <Image
+            priority
+            src="/images/github.png"
+            height={70}
+            width={70}
+            alt="GitHub"
+          />
+        </Link>
+
+        <Link
+          href="https://www.linkedin.com/in/eleanormollett/"
+          className={utilStyles.social}>
+          <Image
+            priority
+            src="/images/linkedin.png"
+            height={70}
+            width={70}
+            alt="Linkedin"
+          />
+        </Link>
+      </section> 
 
     </Layout>
   );

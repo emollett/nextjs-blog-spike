@@ -58,3 +58,9 @@
   .social {
     padding-right: 15px;
   }
+
+  .blurb {
+    margin: 0;
+    padding: 0 0 2%;
+    text-align: center;
+  }
