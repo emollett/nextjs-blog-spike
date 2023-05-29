@@ -4,12 +4,14 @@ draft: false
 ---
 
 # What is it
-Working in pairs on the same peice of code at the same time while sat together or on a call together
+Working in pairs on the same thing at the same time while sat together or on a call together.
 
 # Why do you need to know
 You might think it looks inefficient, but it is a great way to improve quality, upskill developers, and can actually speed up delivery.
 
 # A bit more
+Anyone can pair, developers can pair together, or they can pair with testers or designers. Pairing principles are great for the whole team regardless of role. You might find it useful to pair on writing documentation or presentations.
+
 When developers pair, they often have a 'driver' and a 'navigator'. The driver is typing, and writing the code, while the navigator is thinking about what needs to be done. Often the navigator will be looking things up to help when things aren't working, or will be thinking about how things can be improved. The pair will switch back and forth between roles while they are pairing.
 
 If the pair are using [test driven development](./test-driven-development) they might switch back and forth between each test they write. Otherwise they will find a suitable point, often when they decide to [commit](./basic-git) the code they've written.
@@ -19,7 +21,7 @@ There are several benefits to pairing in software development:
 - Increased code quality because you put in more thought if you are having to explain what you are doing as you go along 
 - Getting new developers up to speed on a new code base
 - Reduces the 'bus factor' as more developers will have experience with a code base
-- Sharing and learning technqiues
+- Sharing and learning techniques
 - Increased code quality due to having to talk through different approaches instead of jumping straight in
 - Strengthens team cohesion rather than developers all working independently
 
@@ -36,7 +38,7 @@ If the pair never switches over, it is likely one of the pair is getting frustra
 Ultimately it is up to your developers, but it is a good practice to encourage, and a good sign that your developers are working well as a team if they are doing it.
 
 Things you can do to help:
-- Don't require one card per face
+- Don't require everyone to be working on their own card
 - Ask at standup if anyone wants to pair
 - Keep an eye out that the pairs are rotating - the same people shouldn't be always together
 - Make it clear that you support it and don't expect developers to just churn through cards as quickly as possible

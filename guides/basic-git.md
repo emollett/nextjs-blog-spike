@@ -4,7 +4,7 @@ draft: false
 ---
 
 # What is it
-git tracks changes to files so that many developers can work on a code base and share their changes
+git tracks changes to files so that many developers can work on a code base and share their changes.
 
 # Why do you need to know
 These days it is pretty likely that your developers are using git, and probably via github. They should definitely be using some sort of version control system (services that allow you to track changes to files). You don't need to know a lot about it or how it works, but it is likely to come up in conversation a lot as they are using it every day!
@@ -18,7 +18,7 @@ Whatever service you use to host your code repositories, there will be a **remot
 
 There are a couple of different methods for multiple developers to work together which you can find out more about [here](./git-flows).
 
-You developers will often use the code repository to store their documentation. The code will often have a README file, with information on how to run the code. A good README might have the following:
+Your developers will often use the code repository to store their documentation. The code will often have a README file, with information on how to run the code. A good README might have the following:
 
 - High level overview of the project/service
 - What is it?
@@ -30,11 +30,15 @@ You developers will often use the code repository to store their documentation. 
     - How does it interact with other services?
 - Set up
     - Specific software dependencies and versions
+    - Things you need installed to run it
     - How to get it running
     - How to run tests
     - Useful commands you can run
-- Gotchas
-- Good to know
+- Common problems
+    - Any settings that need to be checked that might cause it to not run
+    - If it integrates with something else do you need that running as well
+    - Do any accounts need to be set up
+    - This is normally populated as people come across problems!
 
 If you have open code, it is usually findable through your git repository. On github you can have an organisation set up with all the different code bases in your organisation there, which makes it easier for your developers to see all the code in use in your organisation. If the code is open, anyone can look at the code. There are [many benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/).
 
@@ -48,7 +52,7 @@ It is a good idea to check the README for your service and make sure it is usefu
 
 
 # See also
-[What is ...git flows](./git-flows)
+[What is ...branch vs trunk based development](./git-flows)
 
 [My experience using trunk based development](../posts/2023-03-13---trunk-based-development)
 

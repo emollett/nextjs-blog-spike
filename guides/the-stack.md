@@ -13,7 +13,7 @@ At some point someone at a conference or meeting will ask you 'so what's your st
 
 # A bit more
 
-If they are asking about a specific service, typically people will be interested in the frontend framework being used, the backend language or framework, the databse, and what infrastructure it is all being run on.
+If they are asking about a specific service, typically people will be interested in the frontend framework being used, the backend language or framework, the database, and what infrastructure it is all being run on.
 
 Sometimes people will be asking more generally about what your organisation is using - you can be a bit more vague eg "we're a .NET house", "we mostly use ruby but some teams use python. We all use AWS services for hosting"
 
