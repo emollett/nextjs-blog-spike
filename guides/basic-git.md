@@ -16,8 +16,6 @@ There are quite a few terms that developers use when talking about git, which I'
 
 Whatever service you use to host your code repositories, there will be a **remote** copy of the code called the **main** or **master** copy hosted on that service. When a developer is working on code, they have a copy of this on their computer, and this copy is called the **local** copy. Developers make changes to the code on the local copy. When they are happy with the code, they **commit** those changes. The developer can then **push** that commit, which is the record of the changes they made to the remote copy of the code. Those changes get **merged** into the remote copy, allowing other developers to see the changes. They can then **pull** the up to date version onto their computer, updating their own local copy.
 
-There are a couple of different methods for multiple developers to work together which you can find out more about [here](./git-flows).
-
 Your developers will often use the code repository to store their documentation. The code will often have a README file, with information on how to run the code. A good README might have the following:
 
 - High level overview of the project/service

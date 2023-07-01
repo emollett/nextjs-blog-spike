@@ -60,8 +60,8 @@ You should care that the tests are run as part of the [deployment pipeline](./CI
 - do it as a 'sprint 0' if you have to, but it should count as real sprint work required at the beginning of a new project.
 
 # See also
-[What is ...test driven development](./test-driven-development)
+[What is ... test driven development](./test-driven-development)
 
-[What is ...CI/CD](./CI-CD)
+[What is ... CI/CD](./CI-CD)
 
 

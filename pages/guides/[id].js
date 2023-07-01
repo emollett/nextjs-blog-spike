@@ -30,10 +30,14 @@ export default function Guide({ guideData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>What is ... {guideData.title.toLowerCase()}</h1>
-        <ReactMarkdown
+        {guideData.draft ? 
+          <p>This content doesn't exist yet</p>
+        :         
+          <ReactMarkdown
           children={guideData.content}
-          components={components}
-        />
+          components={components}/>
+        }
+
       </article>
     </Layout>
   )

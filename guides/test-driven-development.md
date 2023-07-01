@@ -23,7 +23,7 @@ The basic steps for test driven development are:
 It's a good practice for the developers to be using test driven development, but probably not one for you to get too involved in. You could ask if they are using it (and what their reasons are for not using it if they aren't).
 
 # See also
-[What is ...testing](./testing)
+[What is ... testing](./testing)
 
 
 
