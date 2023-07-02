@@ -11,7 +11,8 @@ export default function Home({ allGuidesData }) {
         <title>{siteTitle} | What is ...</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-        <h2 className={utilStyles.headingLg}>What is ...</h2>
+        <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer things</h2>
+        <h3 className={utilStyles.headingMd}>What is ...</h3>
         <ul className={utilStyles.list}>
           {allGuidesData.map(({ id, title, draft }) => (
               <>

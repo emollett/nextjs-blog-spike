@@ -55,7 +55,7 @@ export default function Home({ allPostsData, allGuidesData }) {
       </section>
       <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-        <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer stuff</h2>
+        <h2 className={utilStyles.headingLg}>Guides for delivery managers about developer things</h2>
         <Link href={`/guides`}>All guides</Link>
       </section>
 
