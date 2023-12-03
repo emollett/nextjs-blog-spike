@@ -8,7 +8,7 @@ category: "Delivery"
 tags:
   - "Delivery"
   - "Agile"
-  - "Development
+  - "Development"
 description: "TLDR: No"
 ---
 
