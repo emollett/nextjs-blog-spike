@@ -9,7 +9,7 @@ tags:
   - "Delivery"
   - "Agile"
   - "Development"
-description: "TLDR: No"
+description: "New guides on development topics for delivery managers"
 ---
 
 I've had several conversation with delivery managers in the past about how much tech or dev stuff they should know about and/or care about. Do they need to be technical, which parts of their devs work should they make the effort to understand. 
