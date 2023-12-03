@@ -24,6 +24,8 @@ My tips for using Advent of Code to learn how to code:
 
 - **Don't worry about your speed.** There are so many reasons other people manage it faster. For me, I did best speed wise when I was up at 5am feeding a newborn because I happened to be awake when the puzzle came out, and needed the distraction to keep me awake. Now I have work and a toddler so I haven't even finished day 1.
 
+- **Write tests.** It just makes your life easier. You might not feel as fast, but as soon as you hit a problem you'll go faster. The first one I did I sketched out my thoughts in comments and then wrote code with a lot of console logs as I didn't yet know how to write tests. It worked, but it got confusing. Writing a series of unit tests does the same thing - it lets you go a bit at a time and check what you're getting at each stage.
+
 - **Don't worry about looking everything up.** This depends on your aim. The first year I did it I wanted to become a person who knew all the syntax by heart so really beat myself up about looking things up. I thought that real developers just knew it fluently. Maybe some do, but I look everything up day to day anyway so I may as well look it all up for this.
 
 - **Take a look at other peoples code if you get stuck!** It's not cheating if you aren't competing, and looking at other peoples code helps you learn. I particularly like looking at peoples code in other languages to see how they did it, and if I can work out how to do that in mine.
@@ -33,3 +35,5 @@ My tips for using Advent of Code to learn how to code:
 - **Join a local leaderboard.** You are almost certainly never going to compete on the global leaderboard, and it is nice to see how people you know are getting on. I'm on one where I can see the name of a dev I worked with 6 years ago and it makes me smile to remember that team.
 
 - **Give up when it isn't enjoyable.** I've never got to the end. For a few years I tried getting more stars than the year before. Now I'm just happy if I get some done.
+
+For more tips and details, have a read of [Neil Vass' post on Advent of Code](https://neil-vass.com/some-things-i-love-about-advent-of-code/) which goes in to a lot more detail and tips.
