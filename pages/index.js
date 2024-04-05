@@ -21,24 +21,37 @@ export default function Home({ allPostsData, allGuidesData }) {
       <hr />
       <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
         <h2 className={utilStyles.headingLg}>Talks</h2>
-        <ul className={utilStyles.list}>
-          <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`}>
-            <Link href={"https://www.youtube.com/watch?v=UjdyimoZ4Ck&t"}>
-              On not being a shit umbrella - Agile Oxfordshire
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              September 2020
-            </small>
-          </li>
-        </ul>
+          <ul className={utilStyles.list}>
+              <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`}>
+                  <Link href={'working_with_developers.pdf'} target="_blank" rel="noopener noreferrer" locale={false}>
+                      Working with developers – intervention without overstepping (pdf)
+                  </Link>
+                  <br/>
+                  <small className={utilStyles.lightText}>
+                      March 2024
+                  </small>
+                  <br/>
+                  Deliver Sessions
+              </li>
+              <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`}>
+                  <Link href={"https://www.youtube.com/watch?v=UjdyimoZ4Ck&t"}>
+                      On not being a shit umbrella (YouTube)
+                  </Link>
+                  <br/>
+                  <small className={utilStyles.lightText}>
+                      September 2020
+                  </small>
+                  <br/>
+                  Agile Oxfordshire
+              </li>
+          </ul>
       </section>
-      <hr />
-      <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.slice(0,3).map(({ id, date, title, description }) => (
-            <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
+        <hr/>
+        <section className={`${utilStyles.headingMd} ${utilStyles.paddingSections}`}>
+            <h2 className={utilStyles.headingLg}>Blog</h2>
+            <ul className={utilStyles.list}>
+                {allPostsData.slice(0, 3).map(({id, date, title, description}) => (
+                    <li className={`${utilStyles.listItem} ${utilStyles.padding1px}`} key={id}>
               <Link href={`/posts/${id}`}>
                 {title}
               </Link>
